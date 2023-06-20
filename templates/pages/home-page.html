@@ -1,0 +1,512 @@
+{% extends 'base.html' %} {% block title %} ToychoqArendaUz {% endblock %} {% load static %}
+
+{% block content %}
+
+{% include 'pages/includes/header.html' %}
+
+<!-- Container Start -->
+<div class="main-container">
+	<div class="left">
+		<div class="top">
+			<p>Find, Book and Rent Cars in Fast and Easy Steps</p>
+			<p>Providing cheap, comfortable and safe car rental services and facilities.</p>
+		</div>
+		<div class="bottom">
+			<input type="email" class="input" id="Email" name="Email" placeholder="Search for cars here" autocomplete="off">
+			<input class="button--submit" value="Find car" type="submit">
+		</div>
+	</div>
+	<div class="right">
+		<img src="{% static 'assets/img/home-page-car.png' %}" alt="Image">
+	</div>
+</div>
+<!-- Container End -->
+
+<!-- Car Brands Start -->
+<div class="car-brands">
+	<div class="slider">
+		<div class="slide-track">
+			<!-- 13 SLIDES -->
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-1.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-2.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-3.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-4.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-5.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-6.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-7.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-8.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-9.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-10.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-11.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-12.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-13.png' %}" alt="car-brand"></div>
+			<!-- SAME 13 SLIDES -->
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-1.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-2.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-3.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-4.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-5.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-6.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-7.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-8.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-9.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-10.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-11.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-12.png' %}" alt="car-brand"></div>
+			<div class="slide"><img src="{% static 'assets/img/car-logos/car-logo-13.png' %}" alt="car-brand"></div>
+		</div>
+	</div>
+</div>
+
+<!-- Car Brands End -->
+
+<!-- Recommendation Start -->
+<div class="recommendation">
+	<div class="recommendation-title">
+		<p>Popular Car</p>
+		<p>View All</p>
+	</div>
+	<div class="cars">
+		<!-- CARD-1 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>Koenigsegg</p>
+					<p>Sport</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-1/1.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>90L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>2 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$99.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+		<!-- CARD-2 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>Nissan GT - R</p>
+					<p>Sport</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-1/2.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>80L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>2 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$80.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+		<!-- CARD-3 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>Rolls - Royce</p>
+					<p>Sedan</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-1/3.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>70L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>4 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$99.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+		<!-- CARD-4 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>Nissan GT - R</p>
+					<p>Sport</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-1/4.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>80L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>2 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$100.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+	</div>
+	<div class="recommendation-title">
+		<p>Recommendation Car</p>
+		<p>View All</p>
+	</div>
+	<div class="cars">
+		<!-- CARD-1 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>All New Rush</p>
+					<p>SUV</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-2/1.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>70L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>6 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$72.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+		<!-- CARD-2 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>CR - V</p>
+					<p>SUV</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-2/2.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>80L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>6 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$80.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+		<!-- CARD-3 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>All New Terios</p>
+					<p>SUV</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-2/3.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>90L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>6 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$74.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+		<!-- CARD-4 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>CR - V</p>
+					<p>SUV</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-2/4.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>80L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>6 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$80.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+	</div>
+	<div class="cars">
+		<!-- CARD-5 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>MG ZX Exclusice</p>
+					<p>Hatchback</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-2/5.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>70L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>4 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$76.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+		<!-- CARD-6 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>New MG ZS</p>
+					<p>SUV</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-2/6.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>80L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>6 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$80.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+		<!-- CARD-7 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>MG ZX Excite</p>
+					<p>Hatchback</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-2/7.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>90L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>4 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$74.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+		<!-- CARD-8 -->
+		<div class="card">
+			<div class="part-1">
+				<div class="left">
+					<p>New MG ZS</p>
+					<p>SUV</p>
+				</div>
+				<div class="right">
+					<img src="{% static 'assets/img/Like.png' %}" alt="like">
+				</div>
+			</div>
+			<div class="part-2">
+				<img src="{% static 'assets/img/cars-2/8.png' %}" alt="cars">
+			</div>
+			<div class="part-3">
+				<div>
+					<img src="{% static 'assets/img/gas-station.png' %}" alt="like">
+					<p>80L</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/car-transition.png' %}" alt="like">
+					<p>Manual</p>
+				</div>
+				<div>
+					<img src="{% static 'assets/img/people.png' %}" alt="like">
+					<p>6 People</p>
+				</div>
+			</div>
+			<div class="part-4">
+				<p>$80.00/day</p>
+				<button>Rent Car</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Recommendation End -->
+
+<!-- Working Steps Start -->
+<div class="working-steps">
+	<div class="top">
+		<p class="top-label">How to rent car?</p>
+		<p class="top-text">Rent by following 3 simple steps</p>
+	</div>
+	<div class="bottom">
+		<div class="card-1">
+			<div class="container-1">
+				<img class="location" src="{% static 'assets/img/location.png' %}" alt="location">
+			</div>
+			<p class="bottom-label">Choose Location</p>
+			<p class="bottom-text">Choose your location and discover best cars for you</p>
+		</div>
+		<div class="card-2">
+			<div class="container-2">
+				<img class="date" src="{% static 'assets/img/date.png' %}" alt="date">
+			</div>
+			<p class="bottom-label">Pick-Up Date</p>
+			<p class="bottom-text">Select your pick-up date and time to book your car</p>
+		</div>
+		<div class="card-3">
+			<div class="container-3">
+				<img class="car" src="{% static 'assets/img/car.png' %}" alt="car">
+			</div>
+			<p class="bottom-label">Book Your Car</p>
+			<p class="bottom-text">Book your car and reach your destination</p>
+		</div>
+	</div>
+</div>
+<!-- Working Steps End -->
+
+{% include 'pages/includes/footer.html' %}
+
+{% endblock %}

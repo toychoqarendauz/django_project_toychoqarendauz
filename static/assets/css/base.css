@@ -1,0 +1,26 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+body {
+	min-height: 100vh;
+/*	background-color: #F6F7FB;*/
+	background-color: #EDF1FF;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: #F6F7FB;
+}
+::-webkit-scrollbar-thumb {
+	background: #3083FF;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #76ADFF;
+}
